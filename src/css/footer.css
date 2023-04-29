@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--size-6);
+  padding-bottom: var(--size-6);
+}
+
+.footer__nav {
+  display: flex;
+  gap: var(--size-2);
+}

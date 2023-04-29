@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --size-1: 8px;
+  --size-2: 16px;
+  --size-3: 24px;
+  --size-4: 32px;
+  --size-5: 40px;
+  --size-6: 48px;
+
+  --col-max: 1140px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.col {
+  max-width: var(--col-max);
+  margin: 0 auto;
+  padding-left: var(--size-3);
+  padding-right: var(--size-3);
+}

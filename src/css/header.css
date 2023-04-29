@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--size-6);
+  padding-bottom: var(--size-6);
+}
+
+.header__logo {
+  background: red;
+}
+
+.header__nav {
+  display: flex;
+  gap: var(--size-2);
+}
